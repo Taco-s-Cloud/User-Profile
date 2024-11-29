@@ -20,5 +20,4 @@ ENV PYTHONPATH=/app
 ENV FLASK_APP=app
 
 # Run the application
-#CMD ["python", "-m", "app"]
-CMD ["python", "app.py"]
+CMD ["python", "main.py"]
